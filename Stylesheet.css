@@ -3,6 +3,7 @@
 
 html{
     font-family: 'Lobster', cursive;
+    color:orangered;
 }
 h1{
     text-align:center;
@@ -31,6 +32,8 @@ h2{
 }
 .image{
     width:100vw;
+    height:70%;
+    margin-bottom:1px;
 }
 
 .image .homie{
@@ -40,14 +43,15 @@ h2{
 
 section{
     display:flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-content:flex-end;
 
 }
 .image1{
-    max-width:40%;
-    max-height:20%;
+    max-width:200px;
+    max-height:50%;
     display:flex;
+    justify-content:space-between;
 
 }
 .image1 .homie{
@@ -55,15 +59,12 @@ section{
     max-height:100%;
 }
 
-.description{
-    border: 2px solid black;
+.wow{
     display:flex;
     justify-content:flex-end;
+    margin-left:3px;
 
 }
 .end{
     background-color:darkgoldenrod;
-    
-    display:flex;
-
 }
